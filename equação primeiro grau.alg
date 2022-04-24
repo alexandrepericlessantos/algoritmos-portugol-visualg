@@ -1,6 +1,6 @@
-algoritmo "algoritmo para calcular equações do erimeiro erau."
+algoritmo "algoritmo para calcular equaï¿½ï¿½es do erimeiro erau."
 
-// Autor : Alexandre Péricles Santos
+// Autor : Alexandre Pï¿½ricles Santos
 // Data : 23/04/2022
 
 var
@@ -9,14 +9,14 @@ var
    equacao: inteiro
    
 inicio
-// Seção de Comandos 
+// Seï¿½ï¿½o de Comandos 
 
 Escreval
-Escreval("Vamos calcular Equações do Primeiro Grau?")
+Escreval("Vamos calcular Equaï¿½ï¿½es do Primeiro Grau?")
 Escreval
-Escreval("Para isso, será necessário digitar valores para: ´a´ e ´b´.")
+Escreval("Para isso, serï¿½ necessï¿½rio digitar valores para: ï¿½aï¿½ e ï¿½bï¿½.")
 Escreval
-Escreval("Lembrando que a expressão que representa uma equação do primeiro grau é:")
+Escreval("Lembrando que a expressï¿½o que representa uma equaï¿½ï¿½o do primeiro grau ï¿½:")
 Escreval
 Escreval(" =============================== ax + b = 0 ============================= ")
 Escreval
@@ -26,11 +26,11 @@ Escreval
 Escreval("[1] ax + b = cx + d")
 Escreval
 
-Escreva("Escolha um dos formatos de equação, digitando ´0´ ou ´1´: ")
+Escreva("Escolha um dos formatos de equaï¿½ï¿½o, digitando ï¿½0ï¿½ ou ï¿½1ï¿½: ")
 Leia(equacao)
 Escreval
 Enquanto equacao > 1 faca
-Escreva("Escolha um dos formatos de equação, digitando ´0´ ou ´1´: ")
+Escreva("Escolha um dos formatos de equaï¿½ï¿½o, digitando ï¿½0ï¿½ ou ï¿½1ï¿½: ")
 Leia(equacao)
 Escreval
 FimEnquanto
@@ -40,25 +40,25 @@ Escolha equacao
 Caso 0
 Escreval("=========================================================================")
 Escreval
-Escreval("Você escolheu o formato de equação: ax + b = 0.")
+Escreval("Vocï¿½ escolheu o formato de equaï¿½ï¿½o: ax + b = 0.")
 Escreval
 Escreval("=========================================================================")
 Escreval
 
-Escreva("Digite um VALOR para ´a´: ")
+Escreva("Digite um VALOR para ï¿½aï¿½: ")
 Leia(a)
 Escreval
 Enquanto a=0 faca
-Escreva("O VALOR de `a` não pode ser zero (0). Digite um novo VALOR para ´a´: ")
+Escreva("O VALOR de `a` nï¿½o pode ser zero (0). Digite um novo VALOR para ï¿½aï¿½: ")
 Leia(a)
 Escreval
 FimEnquanto
 
-Escreva("Digite o SINAL (´+´ ou ´-´) para o valor de ´b´: ")
+Escreva("Digite o SINAL (ï¿½+ï¿½ ou ï¿½-ï¿½) para o valor de ï¿½bï¿½: ")
 Leia(sinal)
 Escreval
 
-Escreva("Digite um valor para ´b´: ")
+Escreva("Digite um valor para ï¿½bï¿½: ")
 Leia(b)
 Escreval
 
@@ -68,7 +68,7 @@ x <- -(b)/(a)
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x +",b," = 0 E A SOLUÇÃO DA EQUAÇAO É x = ",x,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x +",b," = 0 E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -83,7 +83,7 @@ b1 <- (-1)*b
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x -",b1," = 0 E A SOLUÇÃO DA EQUAÇAO É x = ",x1,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x -",b1," = 0 E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x1,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -96,37 +96,37 @@ FimSe
 Caso 1
 Escreval("=========================================================================")
 Escreval
-Escreval("Você escolheu o formato de equação: ax + b = cx + d.")
+Escreval("Vocï¿½ escolheu o formato de equaï¿½ï¿½o: ax + b = cx + d.")
 Escreval
 Escreval("=========================================================================")
 Escreval
 
-Escreva("Digite um VALOR para ´a´: ")
+Escreva("Digite um VALOR para ï¿½aï¿½: ")
 Leia(a)
 Escreval
 Enquanto a=0 faca
-Escreva("O VALOR de `a` não pode ser zero (0). Digite um novo VALOR para ´a´: ")
+Escreva("O VALOR de `a` nï¿½o pode ser zero (0). Digite um novo VALOR para ï¿½aï¿½: ")
 Leia(a)
 Escreval
 FimEnquanto
 
-Escreva("Digite o SINAL (´+´ ou ´-´) para o valor de ´b´: ")
+Escreva("Digite o SINAL (ï¿½+ï¿½ ou ï¿½-ï¿½) para o valor de ï¿½bï¿½: ")
 Leia(sinal)
 Escreval
 
-Escreva("Digite um valor para ´b´: ")
+Escreva("Digite um valor para ï¿½bï¿½: ")
 Leia(b)
 Escreval
 
-Escreva("Digite um VALOR para ´c´: ")
+Escreva("Digite um VALOR para ï¿½cï¿½: ")
 Leia(c)
 Escreval
 
-Escreva("Digite o SINAL (´+´ ou ´-´) para o valor de ´d´: ")
+Escreva("Digite o SINAL (ï¿½+ï¿½ ou ï¿½-ï¿½) para o valor de ï¿½dï¿½: ")
 Leia(sinal2)
 Escreval
 
-Escreva("Digite um VALOR para ´d´: ")
+Escreva("Digite um VALOR para ï¿½dï¿½: ")
 Leia(d)
 Escreval
 
@@ -136,8 +136,8 @@ Se(sinal = "+") e (sinal2 = "+")entao
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x +",b," = ",c,"x +",d,",")
-Escreva("E A SOLUÇÃO DA EQUAÇAO É x = ",x2,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x +",b," = ",c,"x +",d,",")
+Escreva("E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -151,8 +151,8 @@ d1 <- (-1)*d
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x +",b," = ",c,"x -",d1,",")
-Escreval("E A SOLUÇÃO DA EQUAÇAO É x = ",x2,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x +",b," = ",c,"x -",d1,",")
+Escreval("E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -166,8 +166,8 @@ b1 <- (-1)*b
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x -",b," = ",c,"x +",d,",")
-Escreval("E A SOLUÇÃO DA EQUAÇAO É x = ",x2,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x -",b," = ",c,"x +",d,",")
+Escreval("E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -181,8 +181,8 @@ d1 <- (-1)*d
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUAÇÃO É: ",a,"x -",b," = ",c,"x -",d1,",")
-Escreval("E A SOLUÇÃO DA EQUAÇAO É x = ",x2,"." )
+Escreval("A EQUAï¿½ï¿½O ï¿½: ",a,"x -",b," = ",c,"x -",d1,",")
+Escreval("E A SOLUï¿½ï¿½O DA EQUAï¿½AO ï¿½ x = ",x2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
