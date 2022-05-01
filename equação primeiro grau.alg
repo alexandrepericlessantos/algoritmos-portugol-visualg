@@ -5,7 +5,7 @@ algoritmo "algoritmo para calcular equacoes do primeiro grau"
 
 var
    opcao,sinal,sinal2: caractere
-   a,b,b1,c,d,d1,x,x1,x2,x3,x4,x5: real
+   a,b,b1,b2,b3,c,d,d1,d2,x,x1,x2,x3,x4,x5: real
    equacao: inteiro
    
 inicio
@@ -67,7 +67,7 @@ x <- -(b)/(a)
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUACAO E: ",a,"x +",b," = 0 E A SOLUCAO DA EQUACAO E: x = ",x,"." )
+Escreval("A EQUACAO E: ",a,"x +",b," = 0 E A SOLUCAO DA EQUACAO E: x = ",x:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -77,12 +77,11 @@ Senao
 Se(sinal = "-") entao
 
 x1 <- -(b)/(a)
-
 b1 <- (-1)*b
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUACAO E: ",a,"x -",b1," = 0 E A SOLUCAO DA EQUACAO E: x = ",x1,"." )
+Escreval("A EQUACAO E: ",a,"x -",b1," = 0 E A SOLUCAO DA EQUACAO E: x = ",x1:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -131,13 +130,13 @@ Escreval
 
 Se(sinal = "+") e (sinal2 = "+")entao
 
-//ok
+
 x2 <- (d-b)/(a-c)
 
 Escreval("=========================================================================")
 Escreval
 Escreva("A EQUACAO E:",a,"x +",b," = ",c,"x +",d,", ")
-Escreval("E A SOLUCAO DA EQUACAO E: x = ",x2,"." )
+Escreval("E A SOLUCAO DA EQUACAO E: x = ",x2:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -146,14 +145,14 @@ Senao
 
 Se(sinal = "+") e (sinal2 = "-")entao
 
-//ok
+
 x3 <- (d-b)/(a-c)
 d1 <- -1*(d)
 
 Escreval("=========================================================================")
 Escreval
 Escreva("A EQUACAO E:",a,"x +",b," = ",c,"x -",d1,", ")
-Escreval("E A SOLUCAO DA EQUACAO E: x = ",x3,"." )
+Escreval("E A SOLUCAO DA EQUACAO E: x = ",x3:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -162,13 +161,14 @@ Senao
 
 Se(sinal = "-") e (sinal2 = "+")entao
 
-x4 <- (d+b)/(a-(c))
-b1 <- (-1)*b
+
+x4 <- (d-b)/(a-c)
+b2 <- -1*(b)
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUACAO E: ",a,"x -",b," = ",c,"x +",d,",")
-Escreval("E A SOLUCAO DA EQUACAO E: x = ",x4,"." )
+Escreva("A EQUACAO E:",a,"x -",b2," = ",c,"x +",d,", ")
+Escreval("E A SOLUCAO DA EQUACAO E: x = ",x4:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
@@ -177,13 +177,14 @@ Senao
 
 Se(sinal = "-") e (sinal2 = "-")entao
 
-x5 <- (d+b)/(a-c)
-d1 <- (-1)*d
+x5 <- (d-b)/(a-c)
+b3 <- -1*(b)
+d2 <- -1*(d)
 
 Escreval("=========================================================================")
 Escreval
-Escreval("A EQUACAO E: ",a,"x -",b," = ",c,"x -",d1,",")
-Escreval("E A SOLUCAO DA EQUACAO E: x = ",x5,"." )
+Escreva("A EQUACAO E:",a,"x -",b3," = ",c,"x -",d2,", ")
+Escreval("E A SOLUCAO DA EQUACAO E: x = ",x5:4:2,"." )
 Escreval
 Escreval("=========================================================================")
 Escreval
